@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sudip Durge - Web Developer Portfolio">
+    <meta property="og:title" content="Sudip Durge - Web Developer Portfolio">
+    <meta property="og:description" content="Showcasing skills in frontend development, web projects, and more.">
+    <meta property="og:image" content="your_image_link">
+    <meta property="og:url" content="your_website_link">
+    <title>Sudip Durge | Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sudip Durge</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <img src="ssd.jfif" alt="Sudip Durge" class="hero-image">
+            <h1 class="dynamic-text"></h1>
+            <a href="#resume" class="button">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-info">
+                <p>Hey there! I'm Sudip Durge, a web developer passionate about creating seamless user experiences and intuitive applications. With a strong background in Manual Testing, SQL , frontend technologies like HTML, CSS, JavaScript, and a growing interest in backend, I aim to craft modern, efficient, and visually appealing websites that stand out. When I’m not coding, you’ll find me exploring the outdoors, enjoying thrilling adventures, and looking for ways to challenge myself!</p>
+            </div>
+            <div class="about-video">
+                <video controls>
+                    <source src="intro1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Manual Testing</h3>
+                <div class="progress-bar" style="width: 90%"></div>
+            </div>
+            <br>
+            <div class="skill-card">
+                <h3>Frontend Development</h3>
+                <div class="progress-bar" style="width: 80%"></div>
+            </div>
+            <br>
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <div class="progress-bar" style="width: 50%"></div>
+            </div>
+            <br>
+            <div class="skill-card">
+                <h3>Tools & Frameworks</h3>
+                <div class="progress-bar" style="width: 80%"></div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            
+            <h3>Project 1</h3>
+            <p>Tic Tac Toe Game.</p>
+            <a href="https://github.com/Sudipdurge/PRODIGY_WD_03" class="button">GitHub</a>
+           
+        </div>
+        <!-- Add more project cards here -->
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="resume-container">
+            
+            <div class="resume-buttons">
+                <a href="Sudip_Durge_Resume2.pdf" target="_blank" class="button view-btn">View Resume</a>
+                <a href="Sudip_Durge_Resume2.pdf" download class="button download-btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <form id="contact-form" action="https://formspree.io/sudipdurge7@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+            
+            <div id="social-media">
+                <a href="https://www.linkedin.com/in/sudip-durge-58523b233/" target="_blank" class="social-icon">
+                    <img src="https://www.citypng.com/public/uploads/preview/hd-vector-flat-linkedin-in-round-icon-png-701751695046390m4phkuuiqm.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Sudipdurge" target="_blank" class="social-icon">
+                    <img src="https://images.icon-icons.com/3685/PNG/512/github_logo_icon_229278.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/sudip_13_07/" target="_blank" class="social-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram">
+                </a>
+            </div>
+    
+            <div id="whatsapp-chat">
+                <a href="https://wa.me/8275895340" target="_blank">
+                    <button class="whatsapp-button">Chat with me on WhatsApp</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Sudip Durge | All Rights Reserved</p>
+        </div>
+        <div class="testimonials">
+            <!-- Testimonials Section -->
+        </div>
+        <div class="dark-mode-toggle">
+            <button onclick="toggleDarkMode()">🌙</button>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
